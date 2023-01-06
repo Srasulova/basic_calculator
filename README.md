@@ -1,4 +1,4 @@
-# basic_calculator
+# Basic Calculator
 
 This repository contains my first solo project - a basic calculator built with HTML, CSS, and JS.
 As I learned the basics of these languages, I wanted to practice my knowledge in building a real app.
