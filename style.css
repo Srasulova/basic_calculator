@@ -1,16 +1,15 @@
-/* * {
-    box-sizing: border-box;
-} */
+
 .main {
-    width: 400px;
-    height: 700px;
+    width: 460px;
+    height: 608px;
     /* border: 2px solid grey; */
     margin: 100px auto;
     border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgb(180, 210, 244);
 }
 
 .screen {
-    width: 390px;
+    width: 450px;
     height: 100px;
     border: 3px solid grey;
     border-bottom: 0;
@@ -29,7 +28,7 @@
     height: 500px;
     gap:2px; 
     border: 1px solid grey;
-    border-radius: 3px
+    border-radius: 0 0 10px 10px;
 }
 
 .button {
@@ -38,17 +37,18 @@
     border: 1px solid gray;
     font-size: 30px;
     font-weight: 400;
-    border-radius: 3px;
+    border-radius: 10px;
   }
 
   .button:hover {
-    background-color:rgb(95, 95, 95);
+    background-color:rgb(97, 150, 188);
     color: white;
     border: 1px solid gray;
+    transform: scale(1.06);
   }
 
   .button:active {
-    background-color: rgb(10, 9, 9);
+    background-color: rgb(49, 60, 113);
     color: white;
   }
 
